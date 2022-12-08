@@ -29,7 +29,7 @@ from brax.experimental.braxlines.common import dist_utils
 from brax.experimental.composer import composer
 from brax.experimental.composer import observers
 from brax.training import networks
-from brax.training.ppo import StepData
+from brax.experimental.braxlines.training.ppo import StepData
 import jax
 import jax.numpy as jnp
 import tensorflow_probability as tfp
